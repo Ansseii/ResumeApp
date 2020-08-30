@@ -15,6 +15,7 @@ struct User {
         self.password = password
     }
 }
+
 extension User: Equatable {
     static func == (lhs: User, rhs: User) -> Bool {
         return lhs.login == rhs.login &&
